@@ -1,32 +1,11 @@
-== README
+##Basic Information
+This is my first Ruby App.  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I followed [this](http://guides.rubyonrails.org/getting_started.html) tutorial to get started. 
 
-Things you may want to cover:
+And I am going to try and build this: [http://www.devwalks.com/lets-build-instagram-in-rails-part-1/]
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
+##Issues I had to resolve
 To get to work I had to update mysql type in my gem file to 
 
 gem 'mysql2', '~> 0.3.18'
@@ -40,3 +19,5 @@ rake db:create
 
 ```
 to create a database
+
+
